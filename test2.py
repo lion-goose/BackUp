@@ -36,12 +36,12 @@ async def send_live(cks, url):
 # These example values won't work. You must get your own api_id and
 # api_hash from https://my.telegram.org, under API Development.
 # 必须填写 api_id api_hash proxy
-api_id = 11111
-api_hash = '11111'
+api_id = 3123739
+api_hash = '4fb6e1037c1b6b39458ec76f569ce8ce'
 # 使用代理proxy
-client = TelegramClient('test', api_id, api_hash, proxy=("socks5", '127.0.0.1', 1080))
+#client = TelegramClient('test', api_id, api_hash, proxy=("socks5", '127.0.0.1', 1080))
 # 不使用代理
-# client = TelegramClient('test', api_id, api_hash)
+client = TelegramClient('test', api_id, api_hash)
 
 client.start()
 
