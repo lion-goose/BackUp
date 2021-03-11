@@ -9,7 +9,7 @@ import asyncio
 # pip3 install telethon pysocks httpx 或者 py -3 -m pip install telethon pysocks httpx
 
 # cookies中间用&分开
-cks = ""
+cks = "pt_key=AAJgMdwQADCm2NBXqxvH2p1Ul9tWfyCeUkKT31jjpuJscRaUxP3LcKZndwQH40n4_FemqAyzNms;pt_pin=jd_5b54a8d20c8ba;&pt_key=AAJgNm6VADBAF5hs8PI8nj8qLuHeZLZn49Re9BufrklFTRTpSluaETYJ89O_nie80yjBJ7JEKY4;pt_pin=jd_75736df51bfa7;&pt_key=AAJgNv6qADCePTMPZT6pouaaUpAYAE9p5VO6wyiEcSPCnuCQAzF82cIDgDHDZ0wefe5PVfV5E_4;pt_pin=jd_548d40ffbf5be;&pt_key=AAJgNvkAADDCmJ_btR81v8mNbtrBVMU7ROF18yAjYYV5NHOYTSHim1wmdPIlSNNTxUOWdOvL3kM;pt_pin=jd_645ad0bab514d;"
 
 # url1 = 'https://api.m.jd.com/client.action?functionId=liveDrawLotteryV842&body={"lotteryId":666351,"liveId":3656131}&uuid=8888888&client=apple&clientVersion=9.4.1&st=1615429563038&sign=17c699f8504b22f3e0bf961f7a7d941e&sv=121'
 
