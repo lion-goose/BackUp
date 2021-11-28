@@ -8,34 +8,38 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xxxx/jd_scripts.git"
+    "url": ""
   },
   "keywords": [
-    "京东薅羊毛工具, 京东水果、宠物、种豆等等"
+    "JD"
   ],
-  "author": "jd",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
+    "@types/node": "^16.11.9",
+    "axios": "^0.24.0",
     "crypto-js": "^4.1.1",
-    "date-fns": "^2.23.0",
+    "date-fns": "^2.26.0",
     "dotenv": "^10.0.0",
     "download": "^8.0.0",
-    "got": "^11.8.2",
-    "http-server": "^0.12.3",
+    "form-data": "^4.0.0",
+    "got": "^11.8.3",
+    "http-server": "^14.0.0",
+    "jsdom": "^18.1.1",
     "md5": "^2.3.0",
     "png-js": "^1.0.0",
-    "cheerio": "^1.0.0-rc.10",
+    "prettytable": "^0.3.1",
     "qrcode-terminal": "^0.12.0",
     "request": "^2.88.2",
     "tough-cookie": "^4.0.0",
-    "ts-md5": "^1.2.9",
+    "ts-md5": "^1.2.10",
     "tslib": "^2.3.1",
-    "tunnel": "^0.0.6",
-    "iconv-lite": "^0.6.3",
-    "ws": "^7.5.2"
+    "tunnel": "0.0.6",
+    "ws": "^8.2.3"
   },
   "devDependencies": {
-    "@types/node": "^16.4.7"
+    "npm-check-updates": "^12.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.2"
   }
 }
