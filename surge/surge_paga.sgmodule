@@ -3,7 +3,7 @@
 #!category=Paga
 
 [Script]
-user.js = type=http-response,script-path=https://raw.githubusercontent.com/iidamie/paga/main/user.js,pattern=^https:\/\/www\.mypaga\.com\/paga-webservices\/customer-mobile\/secured\/getUserData\/v3$,max-size=0,requires-body=true,timeout=90,script-update-interval=28800,argument=,enable=true
+user.js = type=http-response,script-path=https://raw.githubusercontent.com/lion-goose/BackUp/master/surge/user.js,pattern=^https:\/\/www\.mypaga\.com\/paga-webservices\/customer-mobile\/secured\/getUserData\/v3$,max-size=0,requires-body=true,timeout=90,script-update-interval=28800,argument=,enable=true
 
 [MITM]
 hostname = %APPEND% *.mypaga.com
