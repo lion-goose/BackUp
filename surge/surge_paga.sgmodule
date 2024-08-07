@@ -1,6 +1,9 @@
-#!name=Paga强开美金卡
-#!desc=Paga创建美金卡
-[Mitm]
-hostname = %APPEND% www.mypaga.com
+#!name=Paga强开美元卡
+#!desc=美元卡
+#!category=Paga
+
 [Script]
 user.js = type=http-response,script-path=https://raw.githubusercontent.com/iidamie/paga/main/user.js,pattern=^https:\/\/www\.mypaga\.com\/paga-webservices\/customer-mobile\/secured\/getUserData\/v3$,max-size=0,requires-body=true,timeout=90,script-update-interval=28800,argument=,enable=true
+
+[MITM]
+hostname = %APPEND% *.mypaga.com
